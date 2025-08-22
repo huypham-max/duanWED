@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Bán Acc Game - Thienzedka</title>
+    <link rel="stylesheet" href="/duanWED/trangchu.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo-box">
+                <img src="/duanWED/image/logoshop.jpg" alt="Logo Thienzedka" title="Shop Thienzedka">
+                <div class="slogan">
+                    <strong>Thienzedka</strong><br>
+                    UY TÍN - GIÁ RẺ - GENZ
+                </div>
+            </div>
+
+            <div class="header-actions">
+                <div class="icon-circle facebook-btn">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="login-btn">
+                    <i class="fas fa-user"></i> ĐĂNG NHẬP
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu Toggle -->
+    <div class="menu-toggle" id="menuToggle">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <!-- Side Menu -->
+    <nav class="side-menu" id="sideMenu">
+        <div class="close-btn" id="closeMenu">×</div>
+        <ul>
+            <li><a href="#">Trang Chủ</a></li>
+            <li><a href="#">Sản Phẩm</a></li>
+            <li><a href="#">Nạp Thẻ</a></li>
+            <li><a href="#">Giới Thiệu</a></li>
+            <li><a href="#">Liên Hệ</a></li>
+        </ul>
+    </nav>
+
+    <!-- ===== MAIN CONTENT (Nạp thẻ + Slider) ===== -->
+    <section class="main-content">
+        <!-- Nạp thẻ bên trái -->
+        <div class="card recharge-card">
+            <h2>Nạp Thẻ Game</h2>
+            <label for="card-type">Loại thẻ</label>
+            <select id="card-type">
+                <option value="">-- Chọn loại thẻ --</option>
+                <option value="viettel">Viettel</option>
+                <option value="vinaphone">Vinaphone</option>
+                <option value="mobifone">Mobifone</option>
+                <option value="garena">Garena</option>
+            </select>
+
+            <label for="card-value">Mệnh giá</label>
+            <select id="card-value">
+                <option value="">-- Chọn mệnh giá --</option>
+                <option value="10000">10.000 VNĐ</option>
+                <option value="20000">20.000 VNĐ</option>
+                <option value="50000">50.000 VNĐ</option>
+                <option value="100000">100.000 VNĐ</option>
+                <option value="200000">200.000 VNĐ</option>
+            </select>
+
+            <label for="seri">Số seri</label>
+            <input type="text" id="seri" placeholder="Nhập số seri">
+
+            <label for="pin">Mã thẻ</label>
+            <input type="text" id="pin" placeholder="Nhập mã thẻ">
+
+            <button class="recharge-btn">Nạp Ngay</button>
+        </div>
+
+        <!-- Slider bên phải -->
+        <div class="game-banner">
+            <div class="slider" id="slider">
+                <div class="slide active">
+                    <img src="image/lienminh.jpg" alt="Liên Minh Huyền Thoại">
+                    <div class="caption">Liên Minh Huyền Thoại</div>
+                </div>
+                <div class="slide">
+                    <img src="image/lienquan.jpg" alt="Liên Quân Mobile">
+                    <div class="caption">Liên Quân Mobile</div>
+                </div>
+                <div class="slide">
+                    <img src="/duanWED/image/free fire.avif" alt="Free Fire">
+                    <div class="caption">Free Fire</div>
+                </div>
+                <div class="slide">
+                    <img src="image/pubg.jpg" alt="PUBG Mobile">
+                    <div class="caption">PUBG Mobile</div>
+                </div>
+                <div class="slide">
+                    <img src="image/TFT.jpg" alt="Đấu Trường Chân Lý">
+                    <div class="caption">Đấu Trường Chân Lý</div>
+                </div>
+                <div class="slide">
+                    <img src="image/genshin.jpg" alt="Genshin Impact">
+                    <div class="caption">Genshin Impact</div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <span class="prev" id="prev">&#10094;</span>
+                <span class="next" id="next">&#10095;</span>
+            </div>
+            <div class="dots" id="dots"></div>
+        </div>
+    </section>
+
+    <!-- ===== DANH SÁCH SẢN PHẨM ===== -->
+    <section class="product-list">
+        <h2>Shop Bán Acc Game</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="image/genshin.jpg" alt="Acc LMHT #001">
+                <h3>Acc Liên Minh #001</h3>
+                <p>Rank: Kim Cương</p>
+                <span class="price">500.000 VND</span>
+                <button>Mua Ngay</button>
+            </div>
+            <div class="card">
+                <img src="image/lienquan.jpg" alt="Acc LQM #002">
+                <h3>Acc Liên Quân #002</h3>
+                <p>Rank: Cao Thủ</p>
+                <span class="price">300.000 VND</span>
+                <button>Mua Ngay</button>
+            </div>
+            <div class="card">
+                <img src="image/pubg.jpg" alt="Acc PUBG #003">
+                <h3>Acc PUBG #003</h3>
+                <p>Skin súng hiếm</p>
+                <span class="price">700.000 VND</span>
+                <button>Mua Ngay</button>
+            </div>
+            <div class="card">
+                <img src="image/genshin.jpg" alt="Acc Genshin #004">
+                <h3>Acc Genshin #004</h3>
+                <p>Nhân vật 5★</p>
+                <span class="price">1.200.000 VND</span>
+                <button>Mua Ngay</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="/duanWED/trangchu.js" defer></script>
+</body>
+</html>
